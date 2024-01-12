@@ -25,14 +25,20 @@ section {
 .flex {
     display: flex;
     flex-direction: column;
-    gap: calc(var(--spacer) * 3);
+    row-gap: calc(var(--spacer) * 3);
+    flex-wrap: wrap;
 
     @include respond(tab-port) {
         flex-direction: row;
         justify-content: space-between;
-
         & > * {
-            flex-basis: 100%;
+            flex-basis: 49%;
+        }
+    }
+
+    @include respond(tab-land) {
+        & > * {
+            flex-basis: 24%;
         }
     }
 }
@@ -66,4 +72,12 @@ section {
 
 .shadow {
     box-shadow: var(--box-shadow);
+}
+
+.text-accent {
+    color: var(--custom-color, var(--black));
+}
+
+.mb-1 {
+    margin-block: 1rem !important;
 }
