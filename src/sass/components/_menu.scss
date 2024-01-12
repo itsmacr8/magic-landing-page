@@ -1,0 +1,26 @@
+.header {
+    padding: 1rem 0;
+    @include respond(tab-port) {
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+    }
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+    &__link {
+        font-size: 1rem;
+        color: var(--white);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
+}
+

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet');
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-400);
+    color: var(--black);
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4 {
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    max-width: 600px;
+}
+
+a {
+    color: var(--primary-300);
+    font-weight: var(--fw-700);
+    text-decoration: none;
+}
+
