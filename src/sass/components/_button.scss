@@ -1,0 +1,16 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: inherit;
+    padding: 0.75em 1.5em;
+    background-color: var(--custom-color, var(--primary-400));
+    color: var(--black);
+}
+
+.btn:hover {
+    opacity: 0.85;
+}

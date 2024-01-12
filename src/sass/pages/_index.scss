@@ -1,0 +1,11 @@
+/* <-------  HERO SECTIONS  -------> */
+.page-heading {
+    font-weight: var(--fw-400);
+}
+
+.hero__image {
+    transform: translateY(2em);
+    @include respond(tab-port) {
+        padding: 0;
+    }
+}
