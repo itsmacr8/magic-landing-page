@@ -41,7 +41,16 @@ section {
             flex-basis: 24%;
         }
     }
+
+    &-col-4 {
+        @include respond(tab-port) {
+            & > * {
+                flex-basis: 24%;
+            }
+        }
+    }
 }
+
 
 .flow-content {
     & > * + * {
