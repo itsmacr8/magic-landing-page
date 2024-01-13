@@ -16,6 +16,12 @@ section {
     color: var(--fg);
 }
 
+.bg-light {
+    --bg: var(--white);
+    --fg: var(--black);
+    --custom-color: var(--primary-400);
+}
+
 .bg-dark {
     --bg: var(--black);
     --fg: var(--white);
