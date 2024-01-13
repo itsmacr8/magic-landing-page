@@ -15,3 +15,19 @@
     background-image: url(../../../public/assets/cta-bg-1.jpg);
     background-blend-mode: multiply;
 }
+
+/* <-------  TESTIMONIALS SECTIONS  -------> */
+.testimonial {
+    padding: 2rem;
+    line-height: 2;
+
+    &__text {
+        max-width: 260px;
+    }
+
+    &__name {
+        color: var(--custom-color, var(--primary-400));
+        font-weight: 700;
+        line-height: 1;
+    }
+}

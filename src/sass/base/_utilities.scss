@@ -96,8 +96,20 @@ section {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .mb-1 {
     margin-block: 1rem !important;
+}
+
+.mb-3 {
+    margin-bottom: calc(var(--spacer) * 3);
+}
+
+.mb-8 {
+    margin-bottom: calc(var(--spacer) * 8);
 }
 
 .mx-auto {
