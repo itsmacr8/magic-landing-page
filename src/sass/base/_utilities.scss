@@ -22,6 +22,12 @@ section {
     --custom-color: var(--primary-400);
 }
 
+.bg-accent {
+    --bg: var(--primary-400);
+    --fg: var(--black);
+    --custom-color: var(--white);
+}
+
 .flex {
     display: flex;
     flex-direction: column;
@@ -50,7 +56,6 @@ section {
         }
     }
 }
-
 
 .flow-content {
     & > * + * {
@@ -87,6 +92,19 @@ section {
     color: var(--custom-color, var(--black));
 }
 
+.text-center {
+    text-align: center;
+}
+
 .mb-1 {
     margin-block: 1rem !important;
+}
+
+.mx-auto {
+    margin-inline: auto;
+}
+
+.cta {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
