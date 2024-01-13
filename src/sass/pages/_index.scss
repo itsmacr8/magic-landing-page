@@ -3,10 +3,12 @@
     font-weight: var(--fw-400);
 }
 
-.hero__image {
-    transform: translateY(2em);
+.hero {
     @include respond(tab-port) {
         padding: 0;
+    }
+    &__image {
+        transform: translateY(2em);
     }
 }
 
