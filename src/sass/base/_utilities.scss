@@ -126,3 +126,24 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* <-------  DECORATED CARD ELEMENT RULES  -------> */
+.corner-square {
+    position: relative;
+}
+
+.corner-square::before {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--custom-color, var(--primary-400));
+    position: absolute;
+    z-index: -1;
+    top: -0.625rem;
+    left: -0.625rem;
+}
+
+.corner-square:nth-of-type(2n) {
+    --custom-color: var(--black);
+}
