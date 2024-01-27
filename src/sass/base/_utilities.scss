@@ -47,15 +47,8 @@ section {
             flex-basis: 49%;
         }
     }
-
-    @include respond(tab-land) {
-        & > * {
-            flex-basis: 24%;
-        }
-    }
-
     &-col-4 {
-        @include respond(tab-port) {
+        @include respond(tab-land) {
             & > * {
                 flex-basis: 24%;
             }
